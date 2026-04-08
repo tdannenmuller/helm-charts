@@ -317,6 +317,9 @@
                         "client": {
                             "type": "integer"
                         },
+                        "secureClient": {
+                            "type": "integer"
+                        },
                         "leaderElection": {
                             "type": "integer"
                         },
@@ -395,6 +398,12 @@
                 },
                 "commandsWhitelist": {
                     "type": "string"
+                },
+                "extraConfigs": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 },
                 "electionPortBindRetry": {
                     "type": "integer"
