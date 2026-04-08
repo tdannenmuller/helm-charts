@@ -317,13 +317,13 @@
                         "client": {
                             "type": "integer"
                         },
-                        "secureClient": {
-                            "type": "integer"
-                        },
                         "leaderElection": {
                             "type": "integer"
                         },
                         "quorum": {
+                            "type": "integer"
+                        },
+                        "secureClient": {
                             "type": "integer"
                         }
                     }
@@ -399,14 +399,11 @@
                 "commandsWhitelist": {
                     "type": "string"
                 },
-                "extraConfigs": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
                 "electionPortBindRetry": {
                     "type": "integer"
+                },
+                "extraConfigs": {
+                    "type": "array"
                 },
                 "initLimit": {
                     "type": "integer"
