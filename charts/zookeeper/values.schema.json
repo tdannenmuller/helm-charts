@@ -403,10 +403,7 @@
                     "type": "string"
                 },
                 "customServers": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
+                    "type": "array"
                 },
                 "electionPortBindRetry": {
                     "type": "integer"
